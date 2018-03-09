@@ -24,6 +24,9 @@ Use the following script for installation of both caffe and OpenPose:
 ```
 ./ubuntu/install_caffe_and_openpose_JetsonTX2_JetPack3.1.sh
 ```
+Notes:
+- Some people may be missing dependencies for OpenCV, if that is the case use [Jetsonhacks Opencv JetsonTx2 Install Script](https://github.com/jetsonhacks/buildOpenCVTX2) to install Opencv 3. Do keep in mind that you will need to manually make OpenCV.
+- If you choose to install OpenCV 3, modify makefiles Makefile.config.Ubuntu16_cuda8.example and Makefile.config.Ubuntu16_cuda8_JetsonTX2 to enable OpenCV 3.
 
 
 ## Usage
